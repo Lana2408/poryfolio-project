@@ -48,6 +48,10 @@ p {
    text-align: center;
     background: var(--color-brend1);
     color: var(--color-brand-dark);
+    border-radius: 10px;
+    font-size: 18px
+    line-height: 27px;
+    padding: 10px 30px;
 }
 
 .btn-brending:hover {
