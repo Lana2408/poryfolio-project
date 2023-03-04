@@ -1,22 +1,24 @@
 :root {
     --heading-font-family: 'Playfair Display', serif;
     --main-font-family: 'Poppins', sans-serif;
-    --color-brend1:  rgb(233, 231, 231);
-    --color-brand-dark: #464448;
-}
-
-body {
-
-
+    --color-brend1: rgb(233, 231, 231);
+    --color-brand-dark: #0C161F;
 
 }
+
+body {}
+
 .hero {
-   padding: 160px 20px 285px 20px;
+    padding: 160px 20px 285px 20px;
     text-align: center;
-    background: var(--color-brand-dark);
+    background-image: url(/image/wallpaperbetter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
     margin: 0;
     line-height: 1.5;
     color: var(--color-brend1);
@@ -34,7 +36,7 @@ h2 {
     font-weight: normal;
     font-size: 36px;
     margin-bottom: 30px;
-    
+
 }
 
 p {
@@ -45,17 +47,85 @@ p {
 }
 
 .btn-brending {
-   text-align: center;
+    text-align: center;
     background: var(--color-brend1);
     color: var(--color-brand-dark);
     border-radius: 10px;
-    font-size: 18px
+    font-size: 18px;
     line-height: 27px;
     padding: 10px 30px;
 }
 
 .btn-brending:hover {
-    background-color: rgb(158, 153, 153);
+    background-color: rgb(120, 142, 164);
 
 }
-/*font-family: 'Poppins', sans-serif;*/
+
+/* My projects */
+
+.text-project {
+    color: #25333C;
+    font-size: 18px;
+}
+
+.img-project {
+    width: 100%;
+    height: auto;
+}
+
+.text-title-project {
+    color: #25333C;
+    font-size: 36px;
+}
+
+.text-description {
+    color: #25333C;
+    font-size: 18px;
+}
+
+.btn-brending-outline {
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 30px;
+    border: 1px solid #20303D;
+    color: var(--color-brand-dark);
+}
+.btn-brending-outline:hover {
+    background-color: #20303D;
+    color: var(--color-brend1);
+}
+
+@media (max-width: 900px) {
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.text-title-project {
+    font-size: 24px;
+}
+
+.text-project {
+    margin: 12px 24px 12px 24px!important;
+}
+.text-title-project {
+    padding: 0;
+    margin: 12px 24px 12px 24px!important;
+}
+
+.text-description {
+    margin: 12px 24px 12px 24px!important;
+}
+
+.btn-brending-outline {
+    margin: 12px 24px 12px 24px!important;
+}
+
+}
