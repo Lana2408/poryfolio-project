@@ -6,7 +6,7 @@
 
 }
 
-body {}
+
 
 .hero {
     padding: 160px 20px 285px 20px;
@@ -128,4 +128,49 @@ p {
     margin: 12px 24px 12px 24px!important;
 }
 
+}
+
+/* About page */
+
+.about-section {
+    margin: 0 ;
+    padding: 160px 20px 240px 20px;
+    background-image: url(/image/wallpaperbetter.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.about-hero {
+    margin: 40px 0 40px 0;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-size: 62px;
+    line-height: 1;
+}
+.about-title-ptofession {
+    font-family: var(--main-font-family);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.about-description {
+    font-family: var(--main-font-family);
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 44px;
+}
+
+@media (max-width: 900px){
+.about-section {
+    text-align: center;
+        padding: 80px 20px 120px 20px;
+}
+
+.about-hero {
+    font-size: 44px;
+}
+.btn-brending {
+    margin-bottom: 30px;
+}
 }
