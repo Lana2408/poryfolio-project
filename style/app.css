@@ -132,9 +132,9 @@ p {
 
 /* About page */
 
-.about-section {
+.dark-section {
     margin: 0 ;
-    padding: 160px 20px 240px 20px;
+    padding: 160px 20px 160px 20px;
     background-image: url(/image/wallpaperbetter.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -173,4 +173,54 @@ p {
 .btn-brending {
     margin-bottom: 30px;
 }
+}
+
+/* Work page */
+
+.work-section-description {
+    text-align:left;
+    font-size: 20px !important;
+}
+
+.light-section {
+    padding:  48px 0 48px 0;
+    background: var(--color-brend1);
+}
+
+.img-project {
+    border: solid 0.5px #9d9b9b6b;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: inset;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.img-project:hover {
+    width: 450px;
+}
+
+.projects-title {
+    margin: 16px 0 16px 0;
+}
+.btn-projects-outline {
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 10px;
+    border: 1px solid #20303D;
+    color: var(--color-brand-dark);
+}
+
+.btn-projects-outline:hover {
+    background-color: #20303D;
+    color: var(--color-brend1);
+}
+
+.project-description {
+    font-family: var(--main-font-family);
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 40px;
 }
