@@ -3,15 +3,46 @@
     --main-font-family: 'Poppins', sans-serif;
     --color-brend1: rgb(233, 231, 231);
     --color-brand-dark: #0C161F;
+    --color-blue-grey: rgb(120, 142, 164);
 
 }
 
+.logo {
+    max-width: 80px;
+}
+
+nav {
+    padding: 20px 20px 20px 20px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 44px;
+    margin-left: 15px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-brend1);
+}
+
+nav a:hover,
+nav li.active a {
+    color: var(--color-blue-grey);
+    transition: all 100ms ease-in-out;
+}
 
 
 .hero {
     padding: 160px 20px 285px 20px;
     text-align: center;
-    background-image: url(/image/wallpaperbetter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -131,13 +162,17 @@ p {
         margin: 12px 24px 12px 24px !important;
     }
 
+    .logo {
+        max-width: 44px;
+    }
+
 }
 
 /* About page */
 
 .dark-section {
     margin: 0;
-    padding: 160px 20px 160px 20px;
+    padding: 0px 20px 160px 20px;
     background-image: url(/image/wallpaperbetter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -261,7 +296,7 @@ p {
 }
 
 .contact-link:hover {
-    color: #5b8cb5;
+    color: var(--color-blue-grey)
 }
 
 footer .social-media i {
@@ -284,7 +319,7 @@ footer .social-media i {
 }
 
 .icons-element:hover {
-    color: #5b8cb5;
+    color: #;
 }
 
 
@@ -292,3 +327,5 @@ footer .social-media i {
     font-size: 15px;
     text-align: center;
 }
+
+5b8cb5
