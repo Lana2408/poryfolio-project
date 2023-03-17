@@ -91,53 +91,56 @@ p {
     border: 1px solid #20303D;
     color: var(--color-brand-dark);
 }
+
 .btn-brending-outline:hover {
     background-color: #20303D;
     color: var(--color-brend1);
 }
 
 @media (max-width: 900px) {
-h1 {
-    font-size: 36px;
-}
-h2 {
-    font-size: 24px;
-}
+    h1 {
+        font-size: 36px;
+    }
 
-p {
-    font-size: 20px;
-}
+    h2 {
+        font-size: 24px;
+    }
 
-.text-title-project {
-    font-size: 24px;
-}
+    p {
+        font-size: 20px;
+    }
 
-.text-project {
-    margin: 12px 24px 12px 24px!important;
-}
-.text-title-project {
-    padding: 0;
-    margin: 12px 24px 12px 24px!important;
-}
+    .text-title-project {
+        font-size: 24px;
+    }
 
-.text-description {
-    margin: 12px 24px 12px 24px!important;
-}
+    .text-project {
+        margin: 12px 24px 12px 24px !important;
+    }
 
-.btn-brending-outline {
-    margin: 12px 24px 12px 24px!important;
-}
+    .text-title-project {
+        padding: 0;
+        margin: 12px 24px 12px 24px !important;
+    }
+
+    .text-description {
+        margin: 12px 24px 12px 24px !important;
+    }
+
+    .btn-brending-outline {
+        margin: 12px 24px 12px 24px !important;
+    }
 
 }
 
 /* About page */
 
 .dark-section {
-    margin: 0 ;
+    margin: 0;
     padding: 160px 20px 160px 20px;
     background-image: url(/image/wallpaperbetter.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
 .about-hero {
@@ -147,6 +150,7 @@ p {
     font-size: 62px;
     line-height: 1;
 }
+
 .about-title-ptofession {
     font-family: var(--main-font-family);
     font-weight: bold;
@@ -161,29 +165,30 @@ p {
     margin-bottom: 44px;
 }
 
-@media (max-width: 900px){
-.about-section {
-    text-align: center;
+@media (max-width: 900px) {
+    .about-section {
+        text-align: center;
         padding: 80px 20px 120px 20px;
-}
+    }
 
-.about-hero {
-    font-size: 44px;
-}
-.btn-brending {
-    margin-bottom: 30px;
-}
+    .about-hero {
+        font-size: 44px;
+    }
+
+    .btn-brending {
+        margin-bottom: 30px;
+    }
 }
 
 /* Work page */
 
 .work-section-description {
-    text-align:left;
+    text-align: left;
     font-size: 20px !important;
 }
 
 .light-section {
-    padding:  48px 0 48px 0;
+    padding: 48px 0 48px 0;
     background: var(--color-brend1);
 }
 
@@ -194,7 +199,7 @@ p {
     box-shadow: inset;
     display: block;
     margin: 0 auto;
-    
+
 }
 
 .img-project:hover {
@@ -204,6 +209,7 @@ p {
 .projects-title {
     margin: 16px 0 16px 0;
 }
+
 .btn-projects-outline {
     border-radius: 10px;
     font-size: 18px;
@@ -223,4 +229,66 @@ p {
     font-weight: normal;
     font-size: 14px;
     margin-bottom: 40px;
+}
+
+/* Contact page */
+.contact-section {
+    margin: 0 0 72px 60px;
+}
+
+.title-contacts {
+    margin-bottom: 30px;
+}
+
+.contacts-element {
+    font-size: 20px;
+
+
+}
+
+.contacts-list {
+    list-style-type: none;
+
+}
+
+.contacts-list-item {
+    padding-bottom: 20px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: var(--color-brend1);
+}
+
+.contact-link:hover {
+    color: #5b8cb5;
+}
+
+footer .social-media i {
+    font-size: 28px;
+    margin: 10px 26px;
+    color: var(--color-brend1);
+    padding: 10px 12px;
+    border-radius: 50%;
+
+}
+
+.social-media {
+    list-style-type: none;
+    margin-bottom: 24px;
+
+}
+
+.icons-element {
+    display: inline;
+}
+
+.icons-element:hover {
+    color: #5b8cb5;
+}
+
+
+.footer-text {
+    font-size: 15px;
+    text-align: center;
 }
