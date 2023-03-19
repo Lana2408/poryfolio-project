@@ -15,6 +15,8 @@ nav {
     padding: 20px 20px 20px 20px;
 }
 
+
+
 nav ul {
     padding: 0;
     margin: 0;
@@ -70,7 +72,7 @@ h2 {
 
 }
 
-h4 {
+h3 {
     font-family: var(--main-font-family);
     font-weight: normal;
     font-size: 32px;
@@ -174,7 +176,23 @@ footer .social-links a:hover {
     background: var(--color-brand-dark);
 }
 
+footer .footer-text-end {
+    font-size: 16px;
+    margin-top: 30px;
+    color: var(--color-blue-grey);
+}
+
+footer .footer-link {
+    color: var(--color-brand-dark);
+    text-decoration: none;
+}
+
 @media (max-width: 900px) {
+
+    nav {
+        padding: 20px 10px 20px 10px;
+    }
+
     h1 {
         font-size: 36px;
     }
@@ -187,7 +205,7 @@ footer .social-links a:hover {
         font-size: 20px;
     }
 
-    h4 {
+    h3 {
         font-size: 18px;
     }
 
@@ -239,7 +257,7 @@ footer .social-links a:hover {
 
 .dark-section {
     margin: 0;
-    padding: 0px 20px 160px 20px;
+    padding: 0px 20px 180px 20px;
     background-image: url(/image/wallpaperbetter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -335,9 +353,17 @@ footer .social-links a:hover {
     margin-bottom: 40px;
 }
 
+@media (max-width: 900px) {
+
+    .work-section-description {
+        text-align: left;
+        font-size: 16px !important;
+    }
+}
+
 /* Contact page */
 .contact-section {
-    margin: 0 0 72px 60px;
+    margin: 100px 0 72px 60px;
 }
 
 .title-contacts {
