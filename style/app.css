@@ -70,6 +70,14 @@ h2 {
 
 }
 
+h4 {
+    font-family: var(--main-font-family);
+    font-weight: normal;
+    font-size: 32px;
+    margin-bottom: 12px;
+
+}
+
 p {
     font-family: var(--main-font-family);
     font-weight: normal;
@@ -128,6 +136,44 @@ p {
     color: var(--color-brend1);
 }
 
+footer {
+    margin: 100px 0;
+}
+
+footer .contact-box {
+    background-color: var(--color-brend1);
+    padding: 30px;
+    margin: 60px 260px 60px 260px;
+    border-radius: 10px;
+}
+
+footer .footer-box-descr {
+    color: var(--color-brand-dark);
+    font-size: 20px;
+}
+
+
+.footer-title {
+    text-align: center;
+    font-size: 20px;
+    color: var(--color-brand-dark);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--color-brand-dark);
+    background: var(--color-brend1);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: var(--color-brend1);
+    background: var(--color-brand-dark);
+}
+
 @media (max-width: 900px) {
     h1 {
         font-size: 36px;
@@ -139,6 +185,10 @@ p {
 
     p {
         font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
     }
 
     .text-title-project {
@@ -159,14 +209,31 @@ p {
     }
 
     .btn-brending-outline {
-        margin: 12px 24px 12px 24px !important;
+        margin: 12px 16px 12px 16px !important;
     }
 
     .logo {
         max-width: 44px;
     }
 
+    footer {
+        margin: 50px auto;
+    }
+
+    footer .contact-box {
+        margin: 0px 0px 15px 0px;
+    }
+
+    footer .footer-box-descr {
+        font-size: 16px;
+    }
+
+    footer .btn-brending-outline {
+        font-size: 14px;
+    }
+
 }
+
 
 /* About page */
 
@@ -213,6 +280,8 @@ p {
     .btn-brending {
         margin-bottom: 30px;
     }
+
+
 }
 
 /* Work page */
@@ -318,14 +387,10 @@ footer .social-media i {
     display: inline;
 }
 
-.icons-element:hover {
-    color: #;
-}
+
 
 
 .footer-text {
     font-size: 15px;
     text-align: center;
 }
-
-5b8cb5
